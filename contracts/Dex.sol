@@ -24,23 +24,22 @@ contract Dex {
         address tokenAddress;
     }
 
-
+    /// @param unique id of order
+    /// @param address of trader associated with trade
+    /// @param BUY/SELL
+    /// @param ticker symbol of token
+    /// @param quantity of token
+    /// @param for limit orders, how much was filled
+    /// @param price of token
+    /// @param date of creation of trade
     struct Order {
-        /// @notice unique id of order
         uint id;
-        /// @notice address of trader associated with trade
         address trader;
-        /// @notice BUY/SELL
         Side side;
-        /// @notice ticker symbol of token
         bytes32 ticker;
-        /// @notice quantity of token
         uint amount;
-        /// @notice for limit orders, how much was filled
         uint filled;
-        /// @notice price of token
         uint price;
-        /// @notice date of creation of trade
         uint date;
     }
 
