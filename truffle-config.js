@@ -25,6 +25,7 @@ module.exports = {
           3
         )
       ,
+      skipDryRun: true,
       gasPrice: '0',
       network_id: '*'
     },
