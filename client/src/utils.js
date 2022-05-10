@@ -2,6 +2,7 @@ import Web3 from 'web3';
 import detectEthereumProvider from '@metamask/detect-provider';
 import Dex from'./contracts/Dex.json';
 const ERC20Abi = require('./ERC20Abi.json');
+// import { MetaMaskInpageProvider } from "@metamask/providers";
 
 
 const getWeb3 = () =>
