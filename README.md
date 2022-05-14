@@ -18,7 +18,6 @@ npm i
 ```
 cd DEX/ 
 truffle develop 
-migrate --reset
 ```
 
 4. Then Deploy migration files 
