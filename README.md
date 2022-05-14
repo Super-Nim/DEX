@@ -2,6 +2,14 @@
 
 A Decentralised exchange built with react and truffle/web3.js
 
+Install dependencies:
+
+```
+cd DEX/ npm i 
+truffle develop 
+migrate --reset
+```
+
 **Will be updated with TypeScript**.
 
 ## Project Aim
