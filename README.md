@@ -2,26 +2,31 @@
 
 A Decentralised exchange built with react and truffle/web3.js
 
-Install client dependencies:
+1. Install client dependencies:
 ```
 cd DEX/client 
 npm i 
 ```
 
-Install truffle dependencies:
+2. Install truffle dependencies:
 ```
 cd DEX/ 
 npm i 
 ```
 
-Start Ganache local blockchain:
+3. Start Ganache local blockchain:
 ```
 cd DEX/ 
 truffle develop 
 migrate --reset
 ```
 
-Start localhost:3000
+4. Then Deploy migration files 
+```
+migrate --reset
+```
+
+5. Start localhost:3000
 ```
 cd DEX/client/ 
 npm start
