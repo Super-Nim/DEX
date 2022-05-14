@@ -31,8 +31,6 @@ cd DEX/client/
 npm start
 ```
 
-**Will be updated with TypeScript**.
-
 ## Project Aim
 
 The purpose of the project is to demonstrate the core functionalities of a DEX.
@@ -55,7 +53,7 @@ All trades will appear in the order book and the chart.
 ## Current Objectives
 
 * Implement TypeScript
-* Deploy to Testnet
+* Deploy to Rinkeby - currently experiencing synchronization issues
 * Fix some issues with inputting decimal values
 
 ## Tech Stack
