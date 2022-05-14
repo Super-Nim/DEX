@@ -18,17 +18,10 @@ truffle develop
 migrate --reset
 ```
 
-4. Install client dependencies:
+4. Install client dependencies and start localhost:
 ```
-cd /client 
+cd client/ 
 npm i 
-npm start
-```
-
-
-5. Start localhost:3000
-```
-cd DEX/client/ 
 npm start
 ```
 
