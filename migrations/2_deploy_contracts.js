@@ -117,6 +117,18 @@ module.exports = async function(deployer, _network, accounts) {
     await dex.createLimitOrder(CEL, 1200, 6, SIDE.BUY, {from: trader1, gas: 3000000});
     await dex.createMarketOrder(CEL, 1200, SIDE.SELL, {from: trader2, gas: 3000000});
 
+    await dex.createLimitOrder(FTM, 2000, 2, SIDE.BUY, {from: trader1, gas: 3000000});
+    await dex.createMarketOrder(FTM, 2000, SIDE.SELL, {from: trader2, gas: 3000000});
+    await increaseTime(1);
+    await dex.createLimitOrder(FTM, 800, 4, SIDE.BUY, {from: trader1, gas: 3000000});
+    await dex.createMarketOrder(FTM, 800, SIDE.SELL, {from: trader2, gas: 3000000});
+    await increaseTime(1);
+    await dex.createLimitOrder(FTM, 1500, 2, SIDE.BUY, {from: trader1, gas: 3000000});
+    await dex.createMarketOrder(FTM, 1500, SIDE.SELL, {from: trader2, gas: 3000000});
+    await increaseTime(1);
+    await dex.createLimitOrder(FTM, 2000, 6, SIDE.BUY, {from: trader1, gas: 3000000});
+    await dex.createMarketOrder(FTM, 2000, SIDE.SELL, {from: trader2, gas: 3000000});
+
     await Promise.all([
         dex.createLimitOrder(HEX, 1400, 10, SIDE.BUY, {from: trader1, gas: 3000000}),
         dex.createLimitOrder(HEX, 1200, 11, SIDE.BUY, {from: trader2, gas: 3000000}),

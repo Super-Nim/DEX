@@ -20,13 +20,12 @@ module.exports = {
       provider: () =>
         new provider(
           secret.privateKeys,
-          'https://mainnet.infura.io/v3/3b74f01d6d4a4cc9b9cd553610af7817',
-          0,
-          3
+          'https://mainnet.infura.io/v3/3b74f01d6d4a4cc9b9cd553610af7817'
         )
       ,
+      gasLimit: '300000',
+      confirmations: 2,
       skipDryRun: true,
-      gasPrice: '0',
       network_id: '*'
     },
   }

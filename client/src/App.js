@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Footer from './Footer.js';
+import Footer from './Footer.jsx';
 import Header from "./Header.jsx";
 import Wallet from "./Wallet.jsx";
 import NewOrder from "./NewOrder.jsx";
