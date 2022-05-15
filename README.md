@@ -42,7 +42,7 @@ All trades will appear in the order book and the chart.
 ![Screenshot 2022-05-15 at 08 04 56](https://user-images.githubusercontent.com/64858288/168461398-003fdbca-92b8-4f57-bb8a-b63446087287.png)
 
 
-![Screenshot 2022-04-24 at 14 15 11](https://user-images.githubusercontent.com/64858288/164978411-14f8df8a-1f5b-4397-8821-37b578772096.png)
+![Screenshot 2022-05-15 at 08 06 50](https://user-images.githubusercontent.com/64858288/168461437-06566352-2b39-4fcf-ba0f-206da853350e.png)
 
 
 ## Current Objectives
