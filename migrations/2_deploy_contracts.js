@@ -15,6 +15,11 @@ SIDE = {
 
 // deployment function for: providing tokens to accounts, providing liquidity to Dex, and simulating market trades
 module.exports = async function(deployer, _network, accounts) {
+    console.log('deployer: ', deployer);
+    console.log('_network: ', _network);
+    console.log('accounts: ', accounts);
+
+    // Replace these with actual eth addresses??
     const [trader1, trader2, trader3, trader4, _] = accounts;
     await Promise.all(
         [Dai, Ftm, Hex, Cel, Dex].map(contract => deployer.deploy(contract)) // deploy array of contract artifacts
@@ -30,8 +35,11 @@ module.exports = async function(deployer, _network, accounts) {
     ]);
 
     const amount = web3.utils.toWei('1000'); // 1000 x 10^18 = tokens have same granularity as ether
+    console.log('accounts: ', accounts);
     // provide Dex with liquidity
     const seedTokenBalance = async (token, trader) => {
+        balance = await web3.eth.getBalance(trader)
+        console.log('trader balance: ', balance);
         await token.faucet(trader, amount); // allocate token to recipient and the amount 
         await token.approve( // approve DEX to transfer their token
             dex.address,
