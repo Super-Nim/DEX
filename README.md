@@ -48,7 +48,8 @@ All trades will appear in the order book and the chart.
 ## Current Objectives
 
 * Implement TypeScript
-* Deploy to Rinkeby - currently experiencing synchronization issues
+* ~~Deploy to Rinkeby - currently experiencing synchronization issues~~
+* Implement real price feeds
 * Fix some issues with inputting decimal values
 
 ## Tech Stack
