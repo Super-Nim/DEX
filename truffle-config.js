@@ -16,15 +16,15 @@ module.exports = {
   },
   // start from 0th private key, generate 3 addresses
   networks: {
-    ropsten: {
+    rinkeby: {
       provider: () =>
         new provider(
           secret.privateKeys,
-          `wss://eth-ropsten.alchemyapi.io/v2/${secret.rinkebyInfuraKey}`
+          'https://mainnet.infura.io/v3/3b74f01d6d4a4cc9b9cd553610af7817'
         )
       ,
       gasLimit: '300000',
-      confirmations: 0,
+      confirmations: 2,
       skipDryRun: true,
       network_id: '*'
     },

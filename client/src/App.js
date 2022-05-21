@@ -213,10 +213,10 @@ function App({web3, accounts, contracts}) {
               />
               <MyOrders
                   orders={{
-                    buy: orders.buy?.filter(
+                    buy: orders.buy.filter(
                       order => order.trader.toLowerCase() === user.accounts[0].toLowerCase()
                     ),
-                    sell: orders.sell?.filter(
+                    sell: orders.sell.filter(
                       order => order.trader.toLowerCase() === user.accounts[0].toLowerCase()
                     )
                   }}
