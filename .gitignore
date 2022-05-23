@@ -3,3 +3,6 @@ build
 app/src/contracts
 .DS_Store
 secret.json
+client/.env
+client/.gitignore
+.gitignore
