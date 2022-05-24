@@ -14,7 +14,6 @@ function Header({
             className="card"
         >
             <div className="row">
-                {console.log('Header.jsx called: ', user)}
                 <div className="col-sm-3 flex">
                     <Dropdown
                         items={tokens.map((token) => (

@@ -31,9 +31,7 @@ function NewOrder({createMarketOrder, createLimitOrder}) {
     }
 
     const handleChange = e => {
-        console.log(order)
         setOrder(orders => ({...orders, amount: e.target.value}));
-        console.log(order)
     }
 
     return (

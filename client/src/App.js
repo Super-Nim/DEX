@@ -31,7 +31,6 @@ function App({web3, accounts, contracts}) {
   const [listener, setListener] = useState(undefined);
 
   const getBalances = async (account, token) => {
-    console.log('contracts: ', contracts);
     const tokenDex = await contracts.dex.methods
       .traderBalances(account, web3.utils.asciiToHex(token.ticker))
       .call();

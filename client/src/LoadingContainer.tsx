@@ -15,7 +15,6 @@ function LoadingContainer() {
             setWeb3(web3);
             setContracts(contracts);
             setAccounts(accounts);
-            console.log('loadingContainer')
         }
         init();
     }, []); 

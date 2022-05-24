@@ -17,7 +17,6 @@ function Dropdown({web3, onSelect, activeItem, items}) { // props, values are re
 
     return (
         <div className="dropdown ml-3">
-            {console.log('Dropdown.jsx: ', items)}
             <button
                 className="btn btn-secondary dropdown-toggle"
                 type="button"
