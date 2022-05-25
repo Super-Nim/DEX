@@ -2563,6 +2563,24 @@
     "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x6A4762797E3DdF3a3D04cc48e789159DDAec9F93",
+      "transactionHash": "0x5185b0dded4548ab309ea21d8e619c12dd6d6f8ae3295278ed9b740bbd02c72f"
+    },
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0xCe39fCd07cB168031028D3813a7ae1fCFdb35393",
+      "transactionHash": "0xf497d7c8ca805194057cab4ce0ecb0e94a76a75c31daa79179dc6015f82a5e1d"
+    },
+    "5": {
+      "events": {},
+      "links": {},
+      "address": "0x24f35387685F21cFA81fAc43FC670b5c497Ed7Ee",
+      "transactionHash": "0xc116bbe78d05ab53110f12b2fe1533cc3da30a6893f3a02be47e04be60186192"
+    },
     "5777": {
       "events": {},
       "links": {},
